@@ -1,0 +1,38 @@
+#portfolio{
+    background: url("https://c4.wallpaperflare.com/wallpaper/495/45/161/diamond-pattern-black-printed-wallpaper-preview.jpg");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+#portfolio h1, p {
+    padding-bottom: 20px;
+}
+
+#portfolio div{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 100%;
+}
+
+#portfolio div article{
+    background-color: white;
+    color: black;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+#portfolio div article p{
+    padding: 0 5px;
+}
